@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.template{
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+/* parent div */
+.parentDiv{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 9.5rem;  
+}
+/* lines */
+.line1{
+  width: 20%;
+  height: 0.0625rem;
+  background-color: black;
+  position: relative;
+}
+.line2{
+  width: 30%;
+  height: 0.0625rem;
+  background-color: black;
+  position: relative;
+}
+.line3{
+  width: 30%;
+  height: 0.0625rem;
+  background-color: black;
+  position: relative;
+}
+.line4{
+  position: relative;
+  width: 20%;
+  height: 0.0625rem;
+  background-color: black;
+}
+/* content div */
+.struct{
+  max-width: 20.1875rem;
+  min-width: 20.1875rem;
+  position: absolute;
+  right: -14.9rem;
+}
+/* position for content 1 and 3 */
+.struct1{
+  top: -5.5rem;
+}
+/* position for content 2 */
+.struct2{
+  top: -2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imageDiv{
+  width: 7.5rem;
+  height: 7.5rem;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.contentDiv{
+  color: black;
+}
+.contentDiv h3{
+  text-align: center;
+  margin-top: 2rem;
+}
+.contentDiv p{
+  text-align: center;
+  margin-top: 0.5rem;
+}
